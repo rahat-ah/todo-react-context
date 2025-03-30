@@ -16,7 +16,7 @@ export const userContext = createContext({
 })
 
 
-export const todoContext = ()=>{
+export const useTodo = ()=>{
     return useContext(userContext)
 }
 
